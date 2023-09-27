@@ -22,7 +22,7 @@ def o():
         os.system('xdg-open https://www.facebook.com/copy.link.erorr404')
         return None
     if None == '3':
-        os.system('xdg-open https://github.com/KgHasan')
+        os.system('xdg-open https://github.com/Mr_Vau2.0')
         return None
     if None == '4':
         os.system('xdg-open https://facebook.com/groups/1763822120458146/')
@@ -127,7 +127,7 @@ ha = current.day
 today = date.today()
 logo = ("""
 \033[1;96.
- ███████╗ █████╗ ██╗███╗   ███╗ ██████╗ ███╗   ██╗
+███████╗ █████╗ ██╗███╗   ███╗ ██████╗ ███╗   ██╗
 ██╔════╝██╔══██╗██║████╗ ████║██╔═══██╗████╗  ██║
 ███████╗███████║██║██╔████╔██║██║   ██║██╔██╗ ██║
 ╚════██║██╔══██║██║██║╚██╔╝██║██║   ██║██║╚██╗██║
@@ -138,7 +138,7 @@ logo = ("""
  \033[1;92m×××××××××××××××××\033[1;93m××××××××××××××\033[1;92m××××××××××××××××××
  \033[1;32m|     \033[1;33m[✓] CREATED BY \33[0;m   :  \033[1;31mSAIMON RAHMAN        \033[1;92m|
  \033[1;32m|     \033[1;32m[✓] FACEBOK      : \033[1;37m SAIMON RAHMAN         \033[1;92m|
- \033[1;32m|     \033[1;35m[✓] GITHUB       :  \033[1;35mKgHasan               \033[1;92m|
+ \033[1;32m|     \033[1;35m[✓] GITHUB       :  \033[1;35mMr_Vau2.0               \033[1;92m|
  \033[1;32m|     \033[1;36m[✓] TOOL STATUS  :  \033[1;36mRandom Clone          \033[1;92m|
  \033[1;32m|     \033[1;35m[✓] TEAM         :  \033[1;35mKST                   \033[1;92m|
  \033[1;32m|     \033[1;36m[✓] TOOL VIRSION :  \033[1;36m1. FREE               \033[1;92m|
