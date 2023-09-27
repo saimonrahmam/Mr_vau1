@@ -19,13 +19,13 @@ def o():
     if opt == '1':
         i()
     if None == '2':
-        os.system('xdg-open https://www.facebook.com/copy.link.erorr404')
+        os.system('xdg-open https://www.facebook.com/saimonrahman999')
         return None
     if None == '3':
-        os.system('xdg-open https://github.com/Mr_Vau2.0')
+        os.system('xdg-open https://github.com/saimonrahmam')
         return None
     if None == '4':
-        os.system('xdg-open https://facebook.com/groups/1763822120458146/')
+        os.system('xdg-open https://facebook.com/groups/1174580753310056/')
         return None
     if None == '0':
         os.system('exit')
@@ -182,7 +182,7 @@ ugen2=[]
 ugen=[]
 
 for xd in range(10000):
-    a='Mozilla/5.0 (Linux; Android 10; SM-M013F)'
+    a='Mozilla/5.0 (Linux; Android 12; U668AA Build/SP1A.210812.016; wv)'
     b=random.choice(['3','4','5','6','7','8','9','10','11','12','13','14','15','16','17'])
     c=' en-us; GT-'
     d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
