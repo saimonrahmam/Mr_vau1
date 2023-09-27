@@ -182,7 +182,7 @@ ugen2=[]
 ugen=[]
 
 for xd in range(10000):
-    a='Mozilla/5.0 (Linux; Android 10; SM-M013F)'
+    a='Mozilla/5.0 (Linux; Android 10; TECNO KC8 Build/QP1A.190711.020; wv)'
     b=random.choice(['3','4','5','6','7','8','9','10','11','12','13','14','15','16','17'])
     c=' en-us; GT-'
     d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
